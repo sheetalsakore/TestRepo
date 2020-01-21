@@ -85,7 +85,7 @@ try {
              "osType"    = "Windows";
              "version"   = "latest"
           };
-          "size"                    = "Standard_DS2_v2";
+          "size"                    = "Standard_B2ms";
           "userName"                = "prashant";
           "password"                = "Admin123";
           "disallowPublicIpAddress" = $true;
