@@ -80,12 +80,12 @@ try {
           "expirationDate"          = "2020-12-01"
           
           "galleryImageReference"   = @{
-            # "offer"     = "Windows10";
+             "offer"     = "Windows 10";
             "publisher" = "Microsoft";
              "sku"       = "Windows 10";
              "osType"    = "Windows";
              "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64obd1_clean_ci";
-            # "version"   = "latest"
+             "version"   = "latest"
             
           };
           "size"                    = "Standard_B2ms";
