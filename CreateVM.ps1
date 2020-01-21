@@ -78,16 +78,16 @@ try {
           "notes"                   = "Win10x64OBD1_Clean_ci";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
-           "publisher" = "Sheetal.Sakore@bentley.com";
+          
+          "galleryImageReference"   = @{
+            # "offer"     = "Windows10";
+            "publisher" = "Sheetal.Sakore@bentley.com";
              "sku"       = "Windows 10";
              "osType"    = "Windows";
-             "customImageId"= "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64obd1_clean_ci";
-          #"galleryImageReference"   = @{
-            # "offer"     = "Windows10";
-           
+             "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64obd1_clean_ci";
             # "version"   = "latest"
             
-          #};
+          };
           "size"                    = "Standard_B2ms";
           "userName"                = "prashant";
           "password"                = "Admin123";
