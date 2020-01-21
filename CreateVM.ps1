@@ -75,13 +75,13 @@ try {
        "properties" = @{
           "labVirtualNetworkId"     = $virtualNetwork.ResourceId;
           "labSubnetName"           = $labSubnetName;
-          "notes"                   = "Windows Server 2016 Datacenter";
+          "notes"                   = "Windows 10x64OBD1_Clean.ci";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
           "galleryImageReference"   = @{
-             "offer"     = "WindowsServer";
-             "publisher" = "MicrosoftWindowsServer";
-             "sku"       = "2016-Datacenter";
+             "offer"     = "Windows10";
+             "publisher" = "Sheetal.Sakore@bentley.com";
+             #"sku"       = "2016-Datacenter";
              "osType"    = "Windows";
              "version"   = "latest"
           };
