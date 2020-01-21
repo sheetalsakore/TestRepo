@@ -75,7 +75,7 @@ try {
        "properties" = @{
           "labVirtualNetworkId"     = $virtualNetwork.ResourceId;
           "labSubnetName"           = $labSubnetName;
-          "notes"                   = "Win10x64OBD1_Clean_ci";
+          "notes"                   = "Win10x64Autom1Base_ci";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
           
@@ -89,8 +89,8 @@ try {
             
           };
           "size"                    = "Standard_B2ms";
-          "userName"                = "prashant";
-          "password"                = "Admin123";
+          "userName"                = "atp.building@bentley.com";
+          "password"                = "RN1@%c7^iv3=1IYu3o-mAg;C.";
           "disallowPublicIpAddress" = $true;
                                     
        }
