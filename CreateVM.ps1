@@ -89,8 +89,8 @@ try {
             
           };
           "size"                    = "Standard_B2ms";
-          "userName"                = "atp.building@bentley.com";
-          "password"                = "RN1@%c7^iv3=1IYu3o-mAg;C.";
+          "userName"                = "Common";
+          "password"                = "Master_mind";
           "disallowPublicIpAddress" = $true;
                                     
        }
