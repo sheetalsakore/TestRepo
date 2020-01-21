@@ -81,7 +81,7 @@ try {
           
           "galleryImageReference"   = @{
              "offer"     = "Windows 10";
-            "publisher" = "Microsoft";
+            "publisher" = "MicrosoftWindowsServer";
              "sku"       = "Windows 10";
              "osType"    = "Windows";
              "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64obd1_clean_ci";
