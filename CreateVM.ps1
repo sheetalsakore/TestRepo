@@ -84,7 +84,7 @@ try {
             "publisher" = "MicrosoftWindowsDesktop";
              "sku"       = "19h1-ent";
              "osType"    = "Windows";
-             "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64obd1_clean_ci";
+             "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourceGroups/sea-pun-dev-2/providers/microsoft.compute/images/win10x64autom1sysprepci";
              "version"   = "latest"
             
           };
