@@ -9,7 +9,7 @@
 $subscriptionId = 'cc75dc89-775a-4bc0-a439-a9412fd9ac9c'
 $LabResourceGroup = 'SEA-PUN-Dev-2'
 $LabName = 'SEA-PUN-Dev-2'
-$NewVmName = 'DTLAutoCI3'
+$NewVmName = 'DTLAutoCINoSysPrep'
 $user = "sheetal.sakore@bentley.com"
 $pass = "Matrix2009!@"
 $secpass = ConvertTo-SecureString -String $pass -AsPlainText -Force
@@ -75,7 +75,7 @@ try {
        "properties" = @{
           "labVirtualNetworkId"     = $virtualNetwork.ResourceId;
           "labSubnetName"           = $labSubnetName;
-          "notes"                   = "Win10x64Autom1SysprepCI";
+          "notes"                   = "Win10AutomationNoSysprepCI";
            "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64autom1sysprepci";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
@@ -85,7 +85,7 @@ try {
             #"publisher" = "MicrosoftWindowsDesktop";
            #  "sku"       = "19h1-ent";
              #"osType"    = "Windows";
-            # "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourceGroups/sea-pun-dev-2/providers/microsoft.compute/images/win10x64autom1sysprepci";
+            # "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10automationnosysprepci";
              #"version"   = "latest"
             
          # };
