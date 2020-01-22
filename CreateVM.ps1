@@ -9,7 +9,7 @@
 $subscriptionId = 'cc75dc89-775a-4bc0-a439-a9412fd9ac9c'
 $LabResourceGroup = 'SEA-PUN-Dev-2'
 $LabName = 'SEA-PUN-Dev-2'
-$NewVmName = 'DTLAutoCI12'
+$NewVmName = 'DTLAutoCI3'
 $user = "sheetal.sakore@bentley.com"
 $pass = "Matrix2009!@"
 $secpass = ConvertTo-SecureString -String $pass -AsPlainText -Force
