@@ -75,8 +75,8 @@ try {
        "properties" = @{
           "labVirtualNetworkId"     = $virtualNetwork.ResourceId;
           "labSubnetName"           = $labSubnetName;
-          "notes"                   = "win10x64autom1sysprepCI";
-           "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourceGroups/sea-pun-dev-2/providers/microsoft.compute/images/win10x64autom1sysprepci";
+          "notes"                   = Win10x64Autom1SysprepCI";
+           "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourcegroups/sea-pun-dev-2/providers/microsoft.devtestlab/labs/sea-pun-dev-2/customimages/win10x64autom1sysprepci";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
           
