@@ -76,18 +76,19 @@ try {
           "labVirtualNetworkId"     = $virtualNetwork.ResourceId;
           "labSubnetName"           = $labSubnetName;
           "notes"                   = "win10x64autom1sysprepCI";
+           "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourceGroups/sea-pun-dev-2/providers/microsoft.compute/images/win10x64autom1sysprepci";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
           
-          "galleryImageReference"   = @{
+         # "galleryImageReference"   = @{
             # "offer"     = "Windows-10";
             #"publisher" = "MicrosoftWindowsDesktop";
            #  "sku"       = "19h1-ent";
-             "osType"    = "Windows";
-             "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourceGroups/sea-pun-dev-2/providers/microsoft.compute/images/win10x64autom1sysprepci";
+             #"osType"    = "Windows";
+            # "customImageId" = "/subscriptions/cc75dc89-775a-4bc0-a439-a9412fd9ac9c/resourceGroups/sea-pun-dev-2/providers/microsoft.compute/images/win10x64autom1sysprepci";
              #"version"   = "latest"
             
-          };
+         # };
           "size"                    = "Standard_B2ms";
           "userName"                = "Common";
           "password"                = "Master_mind";
