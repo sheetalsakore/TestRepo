@@ -9,9 +9,9 @@
 $subscriptionId = 'cc75dc89-775a-4bc0-a439-a9412fd9ac9c'
 $LabResourceGroup = 'SEA-PUN-Dev-2'
 $LabName = 'SEA-PUN-Dev-2'
-$NewVmName = 'DTLAutoTest1'
+$NewVmName = 'DTLAutoCI1'
 $user = "sheetal.sakore@bentley.com"
-$pass = "Shaurya1805()!@"
+$pass = "Matrix2009!@"
 $secpass = ConvertTo-SecureString -String $pass -AsPlainText -Force
 
  
@@ -75,7 +75,7 @@ try {
        "properties" = @{
           "labVirtualNetworkId"     = $virtualNetwork.ResourceId;
           "labSubnetName"           = $labSubnetName;
-          "notes"                   = "Win10x64Autom1Base_ci";
+          "notes"                   = "win10x64autom1sysprepCI";
           "osType"                  = "windows"
           "expirationDate"          = "2020-12-01"
           
