@@ -92,7 +92,7 @@ try {
           "size"                    = "Standard_B2ms";
           "userName"                = "Common";
           "password"                = "Master_mind";
-          "disallowPublicIpAddress" = $true;
+          #"disallowPublicIpAddress" = $true;
                                     
        }
     }
